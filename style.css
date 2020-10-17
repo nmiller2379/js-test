@@ -1,0 +1,36 @@
+.bground {
+  background-color: blanchedalmond;
+}
+.top {
+  padding-bottom: 0px;
+  padding-top: 100px;
+  font-size: 72px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: #78a787;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -25px;
+}
+footer {
+  background-color: #78a787;
+}
+.footer,
+.push {
+  height: 50px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+button {
+  padding: 10px;
+  margin: 24px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #78a787;
+  color: white;
+}

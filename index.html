@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quizz</title>
+    <!--Links to styles and bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<!--Static background color for test-->
+<body class="bground"></body>
+        <section class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="top">Javascript test</h1>
+            </div>
+            <!--Description text with logo for test-->
+            <article class="row single-post mt-5 no-gutters">
+              <div class="col-md-6">
+                <div class="image-wrapper float-left pr-3">
+                  <img
+                    src="Assets/icons8-javascript-logo-64.png"
+                    alt="JS logo"
+                    title="Javascript logo"
+                  />
+                </div>
+                <div id="test">
+                  <p>
+                   This Javascript test consts of XX multiple-choice questions. It is timed. You will have 2 minutes to complete the test. When a question is answered correctly, the next question will appear. For each question answered incorrectly you will lose 30 seconds in your remaining time to complete the test.
+                  </p>
+                  <p>
+                    Once your test is complete — either because all the questions have been answered or the time has elapsed — you will see your score. Be sure to enter your initials and save your score to see how you compare to others who have taken the test.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <!--Create initial buttons-->
+            <div class="container">
+                <button id="start">Start</button>
+                <button id="giveup">Give up</button>
+              </div>
+          </div>
+          <!--Create div for results-->
+          <div id="results">
+
+          </div>
+        </section>
+        <div class="push"></div>
+      </article>
+
+<script src="script.js"></script>    
+</body>
+</html>
