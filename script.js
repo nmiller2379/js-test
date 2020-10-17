@@ -54,6 +54,8 @@ var testQuestions = [
 ]
 console.log(testQuestions)
 
+var testAnswers = []
+
 // CREATE functions to build the test and to display the results
 function createTest() {
     
