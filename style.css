@@ -34,3 +34,7 @@ button {
   background-color: #78a787;
   color: white;
 }
+
+#results {
+  display: none;
+}

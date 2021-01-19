@@ -16,9 +16,9 @@
 <!--Static background color for test-->
 <body class="bground"></body>
         <section class="container">
-          <div class="row">
+          <div class="row" id="hidetest">
             <div class="col-lg-12">
-              <h1 class="top">Javascript test</h1>
+              <h2 class="top">Javascript test</h2>
             </div>
             <!--Description text with logo for test-->
             <article class="row single-post mt-5 no-gutters">
@@ -32,7 +32,7 @@
                 </div>
                 <div id="test">
                   <p>
-                   This Javascript test consts of 5 multiple-choice questions. It is timed. You will have 2 minutes to complete the test. When a question is answered correctly, the next question will appear. For each question answered incorrectly you will lose 30 seconds in your remaining time to complete the test.
+                   This Javascript test consts of five multiple-choice questions. It is timed. You will have 2 minutes to complete the test. When a question is answered correctly, the next question will appear. For each question answered incorrectly you will lose 30 seconds in your remaining time to complete the test.
                   </p>
                   <p>
                     Once your test is complete — either because all the questions have been answered or the time has elapsed — you will see your score. Be sure to enter your initials and save your score to see how you compare to others who have taken the test.
@@ -41,13 +41,19 @@
               </div>
             </article>
             <!--Create initial buttons-->
-            <div class="container">
+            <div class="container" id="testStart">
                 <button id="start">Start</button>
                 <button id="giveup">Give up</button>
               </div>
           </div>
+          <!-- Create div for test questions -->
+          <h2 class="top" id="test_status"></h2>
+          <div id="testMain">
+
+          </div>
           <!--Create div for results-->
           <div id="results">
+            <h4 id="yourResults"></h4>
 
           </div>
         </section>
