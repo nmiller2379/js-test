@@ -1,4 +1,4 @@
-# Javascript quize
+# Javascript quiz
 
 This project is a front-end web application that presents the user with a series of multiple choice questions about the basics of Javascript.
 
